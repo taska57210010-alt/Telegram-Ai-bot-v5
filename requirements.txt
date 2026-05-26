@@ -1,0 +1,35 @@
+﻿# Core Telegram Bot Framework
+aiogram==3.13.0
+
+# Async HTTP Client
+httpx==0.27.2
+aiohttp==3.10.5
+
+# Database - PostgreSQL with async support
+asyncpg==0.29.0
+sqlalchemy[asyncio]==2.0.36
+alembic==1.13.3
+
+# Configuration & Validation (Pydantic v2)
+python-dotenv==1.0.1
+pydantic==2.9.2
+pydantic-settings==2.6.1
+
+# Retry Logic
+tenacity==9.0.0
+
+# Caching - Redis for distributed caching
+redis[hiredis]==5.2.0
+
+# Task Queue - Celery for background jobs
+celery[redis]==5.4.0
+
+# Monitoring & Observability
+sentry-sdk[aiohttp]==2.18.0
+prometheus-client==0.21.0
+
+# Rate Limiting
+aiolimiter==1.1.0
+
+# Utilities
+python-json-logger==2.0.7
